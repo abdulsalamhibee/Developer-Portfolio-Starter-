@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: prata;
+}
+html {
+  scroll-behavior: smooth;
+}
+.sub-body {
+  background-color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffff;
+  padding: 1rem;
+}
+.header h5 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+menu {
+  display: noneA;
+}
+.header menu {
+  display: none;
+}
+
+/*---------Content Section------------*/
+.container {
+  color: #ffff;
+  font-weight: lighter;
+  padding: 1rem 0.5rem;
+}
+#build {
+  font-size: 2rem;
+}
+#build br {
+  display: none;
+}
+#award {
+  padding-top: 1rem;
+  color: rgb(158, 156, 156);
+  font-size: 16px;
+}
+#award br {
+  display: none;
+}
+.container2 {
+  padding: 3rem 0rem;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+/*----------Hero Section-------*/
+.hero1 img,
+.hero2 img {
+  width: 100%;
+}
+.hero1 {
+  text-align: left;
+  color: #ffff;
+  padding: 1rem 1rem;
+  overflow: hidden;
+}
+.hero1 p {
+  color: rgb(158, 156, 156);
+}
+#logo {
+  color: #ffff;
+  padding: 1rem 0;
+  font-size: 1.9rem;
+}
+.hero2 {
+  padding: 0.7rem;
+}
+/*------------About Section--------*/
+.about {
+  color: #ffff;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.18);
+}
+.colum1 h6 {
+  font-size: 2rem;
+  font-weight: lighter;
+  padding: 8px 0;
+}
+.colum1 p {
+  padding: 8px 0;
+  color: rgb(165, 165, 165);
+}
+
+/*------------Contact Section--------*/
+.contact {
+  color: #ffff;
+  padding: 1rem;
+}
+.contact h6 {
+  font-size: 2rem;
+  font-weight: lighter;
+  padding: 3rem 0 1rem 0;
+}
+.contact p {
+  color: rgb(165, 165, 165);
+  padding: 0 0 15px 0;
+}
+.contact a {
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  background-color: yellow;
+  font-size: 18px;
+}
+
+/*------------footer Section--------*/
+.footer {
+  color: #ffff;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.18);
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer h5 {
+  font-weight: lighter;
+  font-size: 16px;
+  padding-right: 3rem;
+}
+.footer svg {
+  padding: 8px;
+}
+
+@media only screen and (min-width: 344px) {
+  .footer h5 {
+    margin-right: 2rem;
+  }
+}
+@media only screen and (min-width: 384px) {
+  .footer h5 {
+    margin-right: 4rem;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .header,
+  .container,
+  .hero-container,
+  .about,
+  .contact,
+  .footer {
+    padding: 2rem 1.5rem 1rem 1.5rem;
+  }
+}
+@media only screen and (min-width: 430px) {
+  .footer h5 {
+    margin-right: 5rem;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .footer h5 {
+    margin-right: 8.5rem;
+  }
+}
+@media only screen and (min-width: 550px) {
+  .footer h5 {
+    margin-right: 13rem;
+  }
+}
+@media only screen and (min-width: 651px) {
+  .footer h5 {
+    margin-right: 18rem;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .footer h5 {
+    margin-right: 22rem;
+  }
+}
+
+/*-----------Tablet view--------*/
+
+@media only screen and (min-width: 768px) {
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #build {
+    font-size: 4rem;
+  }
+  #award {
+    font-size: 20øøpx;
+  }
+  #logo {
+    font-size: 3rem;
+  }
+  .hero1 p {
+    font-size: 20px;
+  }
+  .colum1 p {
+    font-size: 20px;
+  }
+  .contact p {
+    font-size: 20px;
+  }
+  .colum1 h6 {
+    font-size: 3rem;
+  }
+  .header,
+  .container,
+  .hero-cotainer,
+  .about,
+  .contact,
+  .footer {
+    padding: 2.5rem 2rem;
+  }
+  .container {
+    padding: 3rem 2rem;
+  }
+  .footer h5 {
+    margin-right: 25rem;
+  }
+}
+@media only screen and (min-width: 781px) {
+  .footer h5 {
+    margin-right: 27rem;
+  }
+}
+@media only screen and (min-width: 830px) {
+  .footer h5 {
+    margin-right: 30rem;
+  }
+}
+@media only screen and (min-width: 880px) {
+  .footer h5 {
+    margin-right: 33rem;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .footer h5 {
+    margin-right: 30rem;
+  }
+}
+@media only screen and (min-width: 912px) {
+  .footer h5 {
+    margin-right: 34rem;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .footer h5 {
+    margin-right: 36rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .footer h5 {
+    margin-right: 40rem;
+  }
+}
+@media only screen and (min-width: 1128px) {
+  .footer h5 {
+    margin-right: 45rem;
+  }
+}
+@media only screen and (min-width: 1159px) {
+  .footer h5 {
+    margin-right: 49rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer h5 {
+    margin-right: 64rem;
+  }
+}
+@media only screen and (min-width: 2575px) {
+  .footer h5 {
+    margin-right: 110rem;
+  }
+}
+
+/*-----------Desktop View---------*/
+@media only screen and (min-width: 1024px) {
+  .header svg {
+    display: none;
+  }
+  .header {
+    padding-top: 3rem;
+  }
+  .header menu {
+    display: flex;
+  }
+  .header menu ul {
+    display: flex;
+    margin-right: 5rem;
+    justify-items: center;
+    align-self: center;
+    list-style: none;
+  }
+  .header menu ul li a {
+    color: rgb(165, 165, 165);
+    display: block;
+    margin: 15px;
+    padding: 2px 8px;
+    outline: none;
+    text-decoration: none;
+  }
+  #build {
+    font-size: 3rem;
+  }
+  .container {
+    padding: 3rem 2rem;
+  }
+  #build br {
+    display: block;
+  }
+  #award br {
+    display: block;
+  }
+  #touch {
+    color: #0000;
+    margin-left: 10rem;
+    display: inline-block;
+    background-color: yellow;
+  }
+  #touch a {
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .hero-cotainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  #logo {
+    font-size: 2rem;
+  }
+  .hero-cotainer p {
+    font-size: 17px;
+  }
+  .colum1 h6 {
+    font-size: 2.5rem;
+  }
+  .colum1 p {
+    font-size: 17px;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact p {
+    font-size: 17px;
+  }
+  .colum1 p {
+    padding-bottom: 2rem;
+  }
+  .header,
+  .container,
+  .hero-container,
+  .about,
+  .contact,
+  .footer {
+    padding: 3rem 3.5rem;
+  }
+  .footer h5 {
+    padding-right: 1.8rem;
+  }
+}
